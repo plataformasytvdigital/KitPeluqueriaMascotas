@@ -1,0 +1,211 @@
+/* General Styles */
+body {
+    background-color: #000;
+    color: rgb(96, 250, 96);
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+header .logo {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Slider de Productos */
+.glowing-border {
+    border: 20px solid transparent;
+    border-radius: 200px;
+    box-shadow: 0 0 200px rgba(0, 255, 0, 0.8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.glowing-border:hover {
+    box-shadow: 0 0 500px rgba(0, 255, 0, 1);
+}
+
+.product-card {
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Botones y Contenido */
+.btn-info {
+    border-radius: 25px;
+    margin-top: 0.5rem;
+    background-color: rgb(48, 48, 126);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #0f0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 255, 0, 0.5);
+    border-radius: 50%;
+}
+
+/* Video */
+.embed-responsive {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+#video video {
+    width: 100%;
+    max-width: 100%; /* Tamaño máximo del video */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.6); /* Sombra resplandeciente */
+    margin: 0 auto; /* Centrar el video */
+    display: block; /* Asegura que el video sea un bloque */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#video video:hover {
+    transform: scale(1.03); /* Efecto de aumento al pasar el ratón */
+    box-shadow: 0 0 30px rgba(0, 255, 0, 0.8); /* Aumentar la sombra en hover */
+}
+
+/* Obsequios */
+.card-img-top {
+    border-radius: 10px;
+}
+
+/* Sección de Sello */
+#sello img {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #0f0;
+}
+
+/* Galería de Fotos */
+.card-deck .card {
+    margin-bottom: 1rem;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+/* Pie de Página */
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+/* Estilos específicos para la sección de detalle del producto */
+#producto-detalle {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 1.5rem;
+    color: rgb(192, 238, 192);
+}
+
+.product-info h2 {
+    color: rgb(192, 238, 192);
+    margin-bottom: 1.5rem;
+}
+
+.product-info .price {
+    font-size: 3rem;
+    color: #0f0;
+}
+
+.text-danger {
+    font-size: 3rem;
+    color: #0f0;
+}
+
+.glowing-border {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.glowing-border:hover {
+    box-shadow: 0 0 20px rgba(0, 255, 0, 1);
+}
+
+.btn-info {
+    border-radius: 25px;
+    width: 100%;
+}
+
+.btn-success {
+    border-radius: 25px;
+    background-color: #0f0;
+    border-color: #0f0;
+    width: 100%;
+    
+}
+
+.text-center{
+    color: rgb(192, 238, 192);
+    text-align: center;
+}
+
+/* Estilos para la Galería de Imágenes */
+#image-gallery {
+    background-color: #222;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.card-img-top {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05); /* Aumenta el tamaño de la imagen en el hover */
+}
+
+.card-body {
+    background: #333;
+    border-radius: 0 0 10px 10px;
+}
+
+.btn-primary {
+    background-color: #0f0;
+    border-color: #0f0;
+}
+
+.btn-primary:hover {
+    background-color: #0c0;
+    border-color: #0c0;
+}
+
+.btn-primary{
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 0.5rem;
+    background-color: rgb(48, 48, 126);
+}
+
+.card-header{
+    background-color: #222;
+}
